@@ -1,13 +1,13 @@
-package com.algo_ds.algorithms_datastructures1.sorting_algorithms;
+package com.algo_ds.algorithms_datastructures1.stack_queue;
 
 /* Java program to implement basic stack 
 operations */
-class Algo_108_StackImpl {
+class STACK_103_StackImpl {
     static final int MAX = 1000;
     int top;
     int a[] = new int[MAX]; // Maximum size of Stack
 
-    Algo_108_StackImpl() {
+    STACK_103_StackImpl() {
         top = -1;
     }
 
@@ -44,7 +44,7 @@ class Algo_108_StackImpl {
 
 
     public static void main(String[] args) {
-        Algo_108_StackImpl s = new Algo_108_StackImpl();
+        STACK_103_StackImpl s = new STACK_103_StackImpl();
         s.push(10);
         s.push(20);
         s.push(30);

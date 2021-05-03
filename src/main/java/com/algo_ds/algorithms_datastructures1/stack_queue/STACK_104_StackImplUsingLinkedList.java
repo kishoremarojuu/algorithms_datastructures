@@ -1,12 +1,12 @@
-package com.algo_ds.algorithms_datastructures1.sorting_algorithms;
+package com.algo_ds.algorithms_datastructures1.stack_queue;
 
 import static java.lang.System.exit;
 
 // Create Stack Using nexted list 
-class Algo_108_StackImplUsingLinkedList {
+class STACK_104_StackImplUsingLinkedList {
     public static void main(String[] args) {
         // create Object of Implementing class
-        Algo_108_StackImplUsingLinkedList obj = new Algo_108_StackImplUsingLinkedList();
+        STACK_104_StackImplUsingLinkedList obj = new STACK_104_StackImplUsingLinkedList();
         // insert Stack value
         obj.push(11);
         obj.push(22);
@@ -40,7 +40,7 @@ class Algo_108_StackImplUsingLinkedList {
     Node top;
 
     // Constructor
-    Algo_108_StackImplUsingLinkedList() {
+    STACK_104_StackImplUsingLinkedList() {
     	this.top = null;
     }
 

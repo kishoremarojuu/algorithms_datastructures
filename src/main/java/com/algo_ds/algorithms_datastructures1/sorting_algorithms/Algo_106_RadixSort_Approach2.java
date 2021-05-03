@@ -4,9 +4,9 @@ package com.algo_ds.algorithms_datastructures1.sorting_algorithms;
 //https://bit.ly/2MJHo7J
 import java.util.Arrays;
 
-public class Algo_105_RadixSort_Approach2 {
+public class Algo_106_RadixSort_Approach2 {
     public static void sort(int[] array) {
-        Algo_105_RadixSort_Approach2.sort(array, 10);
+        Algo_106_RadixSort_Approach2.sort(array, 10);
     }
 
     public static void sort(int[] array, int radix) {
@@ -29,7 +29,7 @@ public class Algo_105_RadixSort_Approach2 {
         // significant digit
         int exponent = 1;
         while ((maxValue - minValue) / exponent >= 1) {
-            Algo_105_RadixSort_Approach2.countingSortByDigit(array, radix, exponent, minValue);
+            Algo_106_RadixSort_Approach2.countingSortByDigit(array, radix, exponent, minValue);
             exponent *= radix;
         }
     }
@@ -69,7 +69,7 @@ public class Algo_105_RadixSort_Approach2 {
     // Method to test above
     public static void main(String args[])
     {
-        Algo_105_RadixSort_Approach2 ob = new Algo_105_RadixSort_Approach2();
+        Algo_106_RadixSort_Approach2 ob = new Algo_106_RadixSort_Approach2();
         //int nums[] = {7, -5, 3, 2, 1, 0, 45};
         int nums[] = {960,951,207,328,406,508,227,256,785};
         

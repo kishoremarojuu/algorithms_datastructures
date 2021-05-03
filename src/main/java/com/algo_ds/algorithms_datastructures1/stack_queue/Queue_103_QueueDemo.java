@@ -1,6 +1,6 @@
-package com.algo_ds.algorithms_datastructures1.sorting_algorithms;
+package com.algo_ds.algorithms_datastructures1.stack_queue;
 
-public class Algo_107_QueueDemo {
+public class Queue_103_QueueDemo {
 
         private int arr[]; // array to store queue elements
         private int front; // front points to front element in the queue
@@ -9,7 +9,7 @@ public class Algo_107_QueueDemo {
         //private int count; // current size of the queue
 
         // Constructor to initialize queue
-        Algo_107_QueueDemo(int size) {
+        Queue_103_QueueDemo(int size) {
             arr = new int[size];
 
             System.out.println("printing size:"+size);
@@ -114,7 +114,7 @@ public class Algo_107_QueueDemo {
         // Queue implementation in java
         public static void main(String[] args) {
             // create a queue of capacity 5
-            Algo_107_QueueDemo q = new Algo_107_QueueDemo(5);
+            Queue_103_QueueDemo q = new Queue_103_QueueDemo(5);
 
             q.enqueue(1);
             q.enqueue(2);

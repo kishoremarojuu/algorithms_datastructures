@@ -1,6 +1,6 @@
 package com.algo_ds.algorithms_datastructures1.iterations_on_ds.array_string;
 
-public class StringExample {
+public class LoopTheString {
     public static void main(String[] args) {
 
         //differences between forloop and forEachloop

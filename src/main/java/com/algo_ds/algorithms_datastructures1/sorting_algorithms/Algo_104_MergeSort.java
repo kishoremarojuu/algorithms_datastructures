@@ -1,6 +1,6 @@
 package com.algo_ds.algorithms_datastructures1.sorting_algorithms;
 
-class Algo_106_MergeSort
+class Algo_104_MergeSort
 { 
 	// Merges two subarrays of arr[]. 
 	// First subarray is arr[l..m] 
@@ -96,7 +96,7 @@ class Algo_106_MergeSort
 		System.out.println("Given Array"); 
 		printArray(arr);
 
-		Algo_106_MergeSort ob = new Algo_106_MergeSort();
+		Algo_104_MergeSort ob = new Algo_104_MergeSort();
 		ob.sort(arr, 0, arr.length-1); 
 
 		System.out.println("\nSorted array"); 

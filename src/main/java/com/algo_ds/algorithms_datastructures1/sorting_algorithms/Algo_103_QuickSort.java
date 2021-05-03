@@ -1,6 +1,6 @@
 package com.algo_ds.algorithms_datastructures1.sorting_algorithms;
 
-class Algo_104_QuickSort
+class Algo_103_QuickSort
 { 
 	/* This function takes last element as pivot, 
 	places the pivot element at its correct 
@@ -75,7 +75,7 @@ class Algo_104_QuickSort
 		int arr[] = {10, 7,9, 1,11,12,13,45,55,66,88};
 		int n = arr.length;
 
-		Algo_104_QuickSort ob = new Algo_104_QuickSort();
+		Algo_103_QuickSort ob = new Algo_103_QuickSort();
 		ob.sort(arr, 0, n-1); 
 
 		System.out.println("sorted array"); 

@@ -25,11 +25,12 @@ public class ListExample {
         /*Looping Array List using Iterator*/
         Iterator iter = arrlist.iterator();
         while (iter.hasNext()) {
-          //  System.out.println(iter.next());
+           // arrlist.add(20);
+           System.out.println(iter.next());
         }
 
         //looping using java8 streams
-        arrlist.stream().forEach(System.out::println);
+        //arrlist.stream().forEach(System.out::println);
 
 
 

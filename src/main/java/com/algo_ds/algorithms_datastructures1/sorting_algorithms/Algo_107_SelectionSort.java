@@ -1,7 +1,7 @@
 package com.algo_ds.algorithms_datastructures1.sorting_algorithms;
 
 // Java program for implementation of Selection Sort
-class Algo_103_SelectionSort
+class Algo_107_SelectionSort
 { 
 	void sort(int arr[]) 
 	{ 
@@ -35,7 +35,7 @@ class Algo_103_SelectionSort
 	// Driver code to test above 
 	public static void main(String args[]) 
 	{ 
-		Algo_103_SelectionSort ob = new Algo_103_SelectionSort();
+		Algo_107_SelectionSort ob = new Algo_107_SelectionSort();
 		int arr[] = {64,25,12,22,11}; 
 		ob.sort(arr); 
 		System.out.println("Sorted array"); 

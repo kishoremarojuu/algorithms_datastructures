@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.algo_ds</groupId>
-	<artifactId>algorithms_datastructures1</artifactId>
+	<artifactId>algorithms_datastructures</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>algorithms_datastructures1</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Repo for algorithms and datastructures</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

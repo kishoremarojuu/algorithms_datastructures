@@ -2,7 +2,7 @@ package com.algo_ds.algorithms_datastructures1.sorting_algorithms;// Counting so
 
 import java.util.Arrays;
 
-class Algo_105_CountSort
+class Algo_108_CountSort
 { 
 
 	static void countSort(int[] arr) 
