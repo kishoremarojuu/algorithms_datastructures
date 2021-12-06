@@ -1,9 +1,9 @@
-package com.algo_ds.algorithms_datastructures.arrays_string;
+package com.algo_ds.algorithms_datastructures.string;
 
-public class String_100_stringIsUniqueOrNot {
+public class String_103_stringIsUniqueOrNot {
 
     public static void main(String[] args) {
-        String_100_stringIsUniqueOrNot m1= new String_100_stringIsUniqueOrNot();
+        String_103_stringIsUniqueOrNot m1= new String_103_stringIsUniqueOrNot();
         String input = "amazon";
         if (m1.someMethod(input)) {
             System.out.println("this is good");

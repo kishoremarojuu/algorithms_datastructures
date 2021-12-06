@@ -1,8 +1,12 @@
-package com.algo_ds.algorithms_datastructures.arrays_string;
+package com.algo_ds.algorithms_datastructures.string;
 
-public class String_100_ReverseTheWordsInString {
+/*
+input: Apple is best fruit
+output: fruit best is Apple
+ */
+public class String_101_ReverseTheWordsInString {
     public static void main(String args[] ) throws Exception {
-        String input = "Wherever you go you can always find beauty";
+        String input = "Apple is best fruit";
         System.out.println(reversetheWordsInString(input));
     }
 
@@ -11,7 +15,7 @@ public class String_100_ReverseTheWordsInString {
         String[] split = str.split(" ");
 
         String output = "";
-        for(int i=split.length-1;i>=0; i--){
+        for(int i=split.length-1;i>=0; i--){   //i=3, i=2, i=1
             //System.out.println(split[i]);
           output = output+ " "+ split[i];
 

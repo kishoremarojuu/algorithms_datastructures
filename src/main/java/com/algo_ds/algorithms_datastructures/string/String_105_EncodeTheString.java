@@ -1,11 +1,11 @@
-package com.algo_ds.algorithms_datastructures.arrays_string;
+package com.algo_ds.algorithms_datastructures.string;
 
 /*problem statement
  give the input String aabbbcddddd
  output: 2a3b1c5d
  */
 
-public class String_102_EncodeTheString {
+public class String_105_EncodeTheString {
 
     public static void main(String[] args) {
         String input = "aabbbcddddd";

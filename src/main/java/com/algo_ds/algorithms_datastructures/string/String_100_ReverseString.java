@@ -1,5 +1,12 @@
-package com.algo_ds.algorithms_datastructures.arrays_string;
+package com.algo_ds.algorithms_datastructures.string;
 
+/*input:  this is the interview
+Output: weivretni eht si siht
+
+Input: interview
+Output: weivretni
+
+*/
 public class String_100_ReverseString {
 
     public static void main(String args[] ) throws Exception {

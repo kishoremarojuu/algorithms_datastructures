@@ -1,6 +1,6 @@
-package com.algo_ds.algorithms_datastructures.arrays_string;
+package com.algo_ds.algorithms_datastructures.string;
 
-public class String_101_compressedString {
+public class String_104_compressedString {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub

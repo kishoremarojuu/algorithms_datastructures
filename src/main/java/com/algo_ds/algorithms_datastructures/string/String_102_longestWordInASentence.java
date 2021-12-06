@@ -1,4 +1,4 @@
-package com.algo_ds.algorithms_datastructures.arrays_string;
+package com.algo_ds.algorithms_datastructures.string;
 
 import java.util.HashMap;
 import java.util.Map;
